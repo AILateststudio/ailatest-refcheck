@@ -1,60 +1,73 @@
-# AILatest RefCheck · 文献侦探 🔍
+<a id="top"></a>
+<p align="right">
+  <b>English</b> | <a href="#chinese"><b>中文说明</b></a>
+</p>
+
+# RefCheck (文献侦探) · Hallucinated Citation & Retraction Checker 🔍
 
 <p align="center">
-  <b>投稿前，核对参考文献真伪、Crossref DOI 元数据、撤稿标记与预警风险。</b><br>
-  科研人员、高校师生与学术期刊编辑的一键式引文审查利器。
+  <b>Catch fake, fabricated, or retracted citations before you submit your academic paper.</b><br>
+  投稿前一键核对参考文献真伪。对照 Crossref、OpenAlex、PubMed 与 Retraction Watch 等权威公开数据库，秒级排查虚构文献与撤稿风险。
 </p>
 
 <p align="center">
-  <a href="https://refcheck.ailatest.org/"><img src="https://img.shields.io/badge/立即核查-refcheck.ailatest.org-0284c7?style=for-the-badge&logo=cloudflare" alt="Live Site"></a>
-  <a href="https://refcheck.ailatest.org/about/"><img src="https://img.shields.io/badge/数据来源-Crossref_官方-green?style=for-the-badge" alt="About"></a>
-  <a href="https://ailatest.org/projects/refcheck/"><img src="https://img.shields.io/badge/产品介绍页-RefCheck-orange?style=for-the-badge" alt="Studio"></a>
+  <a href="https://refcheck.ailatest.org/"><img src="https://img.shields.io/badge/Live_Tool-refcheck.ailatest.org-2563eb?style=for-the-badge&logo=cloudflare" alt="Live Tool"></a>
+  <img src="https://img.shields.io/badge/Free_Tier-5_References_Daily-success?style=for-the-badge" alt="Free Tier">
+  <img src="https://img.shields.io/badge/No_Sign--up-Required_for_Trial-orange?style=for-the-badge" alt="No Sign-up">
+  <img src="https://img.shields.io/badge/Retraction_Watch-Integrated-red?style=for-the-badge" alt="Retraction Watch">
 </p>
 
 ---
 
-## 🖼 视觉预览 · Visual Overview
+## 🖼 Visual Showcase
 
-### 1. 官方封面插画
+### 1. Official Cover Art
+<p align="center">
+  <img src="assets/covers/refcheck.webp" alt="RefCheck Cover Art" width="860">
+</p>
+
+### 2. Live Application Interface
 <p align="center">
   <a href="https://refcheck.ailatest.org/">
-    <img src="assets/covers/refcheck.webp" alt="RefCheck 官方插画" width="920">
+    <img src="assets/screenshots/preview.png" alt="RefCheck Live Interface" width="920">
   </a>
 </p>
+<p align="center"><em>Live screenshot captured from production: <a href="https://refcheck.ailatest.org/">refcheck.ailatest.org</a>.</em></p>
 
-### 2. 真实在线界面截图 (Live Application Interface)
-<p align="center">
-  <a href="https://refcheck.ailatest.org/">
-    <img src="assets/screenshots/preview.png" alt="RefCheck 真实在线界面截图" width="920">
-  </a>
+---
+
+## 🌟 Key Features
+
+1. **AI Hallucination Detection**: LLMs frequently invent realistic-sounding paper titles, fictitious author teams, and nonexistent DOIs. RefCheck cross-examines every reference against authoritative databases to expose non-existent records.
+2. **Retraction Watch Integration**: Directly flags papers that have been officially retracted, placed under Expression of Concern, or issued major errata notices.
+3. **9+ Authoritative Database Connectors**:
+   - Scholarly Metadata: **Crossref**, **OpenAlex**, **PubMed**, **Europe PMC**, **Semantic Scholar**, **arXiv**, **DBLP**, **DataCite**.
+   - Books & Monographs: **Open Library**, **Google Books**.
+   - Open Access Verification: **Unpaywall**.
+4. **Smart Title & Metadata Correction**: For references containing typos in author names, inverted volume/page numbers, or missing DOIs, RefCheck suggests verified standard records.
+5. **Multi-Format Bibliography Formatting**: One-click standardized output formatted in **GB/T 7714-2015**, **APA 7th**, **MLA 9th**, **Chicago 17th**, and **IEEE**.
+6. **Zero-Barrier Trial**: Inspect 5 citations daily without signing up or logging in.
+
+---
+
+<a id="chinese"></a>
+<p align="right">
+  <a href="#top"><b>Back to Top (English)</b></a> | <b>中文说明</b>
 </p>
-<p align="center"><em>界面截图截取自线上站点 <a href="https://refcheck.ailatest.org/">refcheck.ailatest.org</a>。</em></p>
 
----
+## 🇨🇳 中文介绍 · RefCheck (文献侦探)
 
-## 🌟 为什么需要 RefCheck？
+### 为什么需要文献侦探？
+随着大模型辅助科研写作的普及，**AI 虚构参考文献（Hallucinated Citations）**已成为学术论文投稿被秒拒甚至遭遇学术不端调查的主要原因之一：
+- AI 生成的论文题目高度逼真，但 DOI 根本不存在或对应完全无关的文章；
+- 引用的文献在发表后已被官方**撤稿（Retracted）**或标记预警，作者未曾察觉；
+- 参考文献的卷期、页码、年份存在细微笔误，导致审稿人检索失败。
 
-学术引用出现瑕疵会导致严重的论文拒稿甚至学术不端质疑。日常科研中经常遇到：
-1. **大模型生成的虚构参考文献 (AI Hallucinated Citations)**：ChatGPT 或其他大模型生成的参考文献看起来无比逼真，但作者、篇名、期刊、DOI 往往是被拼凑虚构的；
-2. **论文被撤稿却浑然不知 (Retracted Papers)**：引用了多年前发表但近期已被撤稿（Retracted）的问题论文，可能引发审稿人强烈质疑；
-3. **DOI 错漏与排版低级失误**：卷期、页码缺失，DOI 无法跳转，作者拼写错误导致反复返修。
+### 核心功能与核查维度
+1. **核查全网真实题录**：逐条比对 Crossref、OpenAlex、PubMed、Europe PMC、Semantic Scholar、arXiv、DBLP 与 DataCite 真实元数据。
+2. **权威撤稿数据筛查**：深度整合 Retraction Watch 数据库，醒目标记撤稿论文、关注声明（Expression of Concern）与更正记录。
+3. **更正题录与补齐缺失**：自动找回缺失的官方 DOI，纠正错位作者与拼写笔误。
+4. **一键规范化导出**：支持输出 GB/T 7714、APA、MLA、Chicago 与 IEEE 标准格式。
+5. **无需注册即可体验**：免登录每日免费核查 5 条参考文献。
 
-**RefCheck (文献侦探)** 通过直连官方 Crossref 全球数字对象数据库与撤稿监控库，一键化解所有引用隐患。
-
----
-
-## ⚡️ 核心功能详解
-
-- **批量粘贴解析**：直接复制论文末尾的 References 列表（支持 APA、IEEE、GB/T 7714、Nature、Chicago 等格式），自动智能分行与实体识别。
-- **Crossref DOI 深度比对**：
-  - 自动匹配官方 DOI 数字对象唯一标识符；
-  - 校验刊名、卷号（Volume）、期号（Issue）、起始页码与出版年份；
-  - 识别第一作者与通讯作者是否真实存在。
-- **撤稿与预警红线警示**：自动对接撤稿数据库，高亮标记已被学术界撤稿或存在严重争议的文献。
-- **期刊影响因子与中科院分区提示**：自动为匹配到的论文补齐目标期刊的最新 JCR 影响因子与中科院升级版分区，辅助把控引用权威度。
-
----
-
-## 🌐 立即核对您的参考文献
-
-访问官方网址：[**https://refcheck.ailatest.org/**](https://refcheck.ailatest.org/)\n
+🌐 **立即在线体验**：[**https://refcheck.ailatest.org/**](https://refcheck.ailatest.org/)
