@@ -50,6 +50,10 @@
 
 ---
 
+### 🏷 Related Topics & Search Keywords
+`citation-checker` · `fake-citation-detector` · `hallucinated-references` · `retraction-watch-database` · `academic-integrity` · `crossref-doi-lookup` · `paper-submission-check` · `apa-mla-formatter` · `unpaywall`
+
+---
 <a id="chinese"></a>
 <p align="right">
   <a href="#top"><b>Back to Top (English)</b></a> | <b>中文说明</b>
@@ -71,3 +75,6 @@
 5. **无需注册即可体验**：免登录每日免费核查 5 条参考文献。
 
 🌐 **立即在线体验**：[**https://refcheck.ailatest.org/**](https://refcheck.ailatest.org/)
+
+### 🏷 热门搜索关键词与相关主题
+`文献侦探` · `参考文献核查` · `假文献检测` · `AI文献虚构核查` · `撤稿论文查询` · `RetractionWatch` · `Crossref查询` · `DOI真伪核验` · `论文投稿自查` · `GB7714格式转换` · `APA引文格式`
