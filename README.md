@@ -2,13 +2,13 @@
 
 <p align="center">
   <b>投稿前，核对参考文献真伪、Crossref DOI 元数据、撤稿标记与预警风险。</b><br>
-  科研工作者、硕博研究生与学术期刊编辑的一键式引文审查利器。
+  科研人员、高校师生与学术期刊编辑的一键式引文审查利器。
 </p>
 
 <p align="center">
-  <a href="https://refcheck.ailatest.org/"><img src="https://img.shields.io/badge/Live_Site-refcheck.ailatest.org-0284c7?style=for-the-badge&logo=cloudflare" alt="Live Site"></a>
-  <a href="https://refcheck.ailatest.org/about/"><img src="https://img.shields.io/badge/About_&_Data-Crossref-green?style=for-the-badge" alt="About"></a>
-  <a href="https://ailatest.org/projects/refcheck/"><img src="https://img.shields.io/badge/Studio_Page-RefCheck-orange?style=for-the-badge" alt="Studio"></a>
+  <a href="https://refcheck.ailatest.org/"><img src="https://img.shields.io/badge/立即核查-refcheck.ailatest.org-0284c7?style=for-the-badge&logo=cloudflare" alt="Live Site"></a>
+  <a href="https://refcheck.ailatest.org/about/"><img src="https://img.shields.io/badge/数据来源-Crossref_官方-green?style=for-the-badge" alt="About"></a>
+  <a href="https://ailatest.org/projects/refcheck/"><img src="https://img.shields.io/badge/产品介绍页-RefCheck-orange?style=for-the-badge" alt="Studio"></a>
 </p>
 
 ---
@@ -22,13 +22,13 @@
   </a>
 </p>
 
-### 2. 真实在线界面截图 (Live Application Screenshot)
+### 2. 真实在线界面截图 (Live Application Interface)
 <p align="center">
   <a href="https://refcheck.ailatest.org/">
     <img src="assets/screenshots/preview.png" alt="RefCheck 真实在线界面截图" width="920">
   </a>
 </p>
-<p align="center"><em>界面截图截取自线上生产环境 <a href="https://refcheck.ailatest.org/">refcheck.ailatest.org</a>。</em></p>
+<p align="center"><em>界面截图截取自线上站点 <a href="https://refcheck.ailatest.org/">refcheck.ailatest.org</a>。</em></p>
 
 ---
 
